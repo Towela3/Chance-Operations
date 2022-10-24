@@ -19,4 +19,6 @@ function showImage(){
     console.log(img);
     pic.style.backgroundImage = img;}
 
+
 //setInterval(showImage,1000);
+setTimeout(section, 3000);

@@ -3,12 +3,12 @@ const pics = [
     'url("2.jpg")',
     'url("3.jpg")',
     'url("4.jpg")',
-    'url("5.jpg")',
-    'url("6.jpg")',
-    'url("7.jpg")',
-    'url("8.jpg")',
-    'url("9.jpg")',
-    'url("10.jpg")',
+    'url("14.jpg")',
+    'url("17.jpg")',
+    'url("19.jpg")',
+    'url("20.jpg")',
+    'url("24.jpg")',
+    'url("31.jpg")',
     
 ];
 const pic = document.querySelector('section');

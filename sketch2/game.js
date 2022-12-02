@@ -42,39 +42,25 @@ function selectOption(option) {
 const textNodes = [
     {
         id: 1,
-        text: 'You wake up in a strange place and you see a jar of blue goo near you.',
+        text: 'Welcome To Moderator!',
         options: [
             {
-                text: 'Take the goo',
+                text: 'START',
                 setState: { blueGoo: true },
-                nextText: 2
-            },
-            {
-                text: 'Leave the goo',
                 nextText: 2
             }
         ]
     },
     {
         id: 2,
-        text: 'You venture forth in search of answers to where you are when you come across a merchant.',
+        text: 'Storyline: You’ve recently been hired at Real News Broadcast',
         options: [
             {
-                text: 'Trade the goo for a sword',
+                text: 'Ready To Start',
                 requiredState: (currentState) => currentState.blueGoo,
-                setState: { blueGoo: false, sword: true },
+                setState: { blueGoo: true },
                 nextText: 3
             },
-            {
-                text: 'Trade the goo for a shield',
-                requiredState: (currentState) => currentState.blueGoo,
-                setState: { blueGoo: false, shield: true },
-                nextText: 3
-            },
-            {
-                text: 'Ignore the merchant',
-                nextText: 3
-            }
         ]
     },
     {
@@ -89,10 +75,6 @@ const textNodes = [
                 text: 'Find a room to sleep at in the town',
                 nextText: 5
             },
-            {
-                text: 'Find some hay in a stable to sleep in',
-                nextText: 6
-            }
         ]
     },
     {

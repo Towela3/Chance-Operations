@@ -6,6 +6,8 @@
 
 ## Culture Jam Interactive Game
 
-## Click Right Below
+## Part One
 
 [Creative Project 3](./sketch2)
+
+## Part Two

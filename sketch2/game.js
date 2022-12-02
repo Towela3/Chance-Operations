@@ -53,102 +53,96 @@ const textNodes = [
     },
     {
         id: 2,
-        text: 'Storyline: You’ve recently been hired at Real News Broadcast',
-        options: [
+        text: 'Storyline: You have recently been hired at Real News Broadcast as an intern for the summer in the journalism department. Bright eyed and bushy tailed, you are ready to change the world for the better. You have worked so hard to be where you are now and you are just inching closer to this being your dream job in the future. Do Not Screw It Up'
+        , options: [
             {
                 text: 'Ready To Start',
                 requiredState: (currentState) => currentState.blueGoo,
                 setState: { blueGoo: true },
                 nextText: 3
-            },
-        ]
+            }
+        ],
     },
     {
         id: 3,
-        text: 'After leaving the merchant you start to feel tired and stumble upon a small town next to a dangerous looking castle.',
+        text: 'You meet with your manager who invites you to your first morning meeting with the rest of the department.',
         options: [
             {
-                text: 'Explore the castle',
+                text: 'Interesting',
                 nextText: 4
             },
             {
-                text: 'Find a room to sleep at in the town',
-                nextText: 5
+                text: 'Okay?',
+                nextText: 4
             },
         ]
     },
     {
         id: 4,
-        text: 'You are so tired that you fall asleep while exploring the castle and are killed by some terrible monster in your sleep.',
+        text: 'First Assignment: Your manager would like to see you work on your first project to see how you do. They give an option to pick which platform you’d like to embark on.',
         options: [
             {
-                text: 'Restart',
+                text: 'Twitter',
+                nextText: 5
+            },
+            {
+                text: 'Facebook',
                 nextText: -1
             }
         ]
     },
     {
         id: 5,
-        text: 'Without any money to buy a room you break into the nearest inn and fall asleep. After a few hours of sleep the owner of the inn finds you and has the town guard lock you in a cell.',
+        text: 'You choose Twitter and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to spice it up',
         options: [
             {
-                text: 'Restart',
-                nextText: -1
+                text: 'Spice it up',
+                nextText: 6
+            },
+            {
+                text: 'Rewrite it to make it more interesting',
+                nextText: 7
             }
+
         ]
     },
     {
         id: 6,
-        text: 'You wake up well rested and full of energy ready to explore the nearby castle.',
+        text: 'You spice up your assignment, stating that, "President Biden is in a political brawl with the Supreme Court over passing student forgiveness progrom"',
         options: [
             {
-                text: 'Explore the castle',
-                nextText: 7
+                text: 'Submit to manager',
+                nextText: 8
             }
         ]
     },
     {
         id: 7,
-        text: 'While exploring the castle you come across a horrible monster in your path.',
+        text: 'You excitedly rewrite your assignment, stating that "President Biden passed a new law forgiving any born American Citizens student loans but only effective for three months',
         options: [
             {
-                text: 'Try to run',
-                nextText: 8
-            },
-            {
-                text: 'Attack it with your sword',
-                requiredState: (currentState) => currentState.sword,
+                text: 'Submit it manager',
                 nextText: 9
-            },
-            {
-                text: 'Hide behind your shield',
-                requiredState: (currentState) => currentState.shield,
-                nextText: 10
-            },
-            {
-                text: 'Throw the blue goo at it',
-                requiredState: (currentState) => currentState.blueGoo,
-                nextText: 11
             }
         ]
     },
     {
         id: 8,
-        text: 'Your attempts to run are in vain and the monster easily catches.',
+        text: 'Your manager reads it over, exclaiming that it will get people to read but is not enaging enough to pull outside of the basic audience',
         options: [
             {
-                text: 'Restart',
-                nextText: -1
+                text: 'Okay, thank you for the feedback',
+                nextText: 10
             }
         ]
     },
     {
         id: 9,
-        text: 'You foolishly thought this monster could be slain with a single sword.',
+        text: 'Your manger excitedly reads your assignment, giving you a nod of approvel, "This is going to get some people talking, good job"',
         options: [
             {
-                text: 'Restart',
-                nextText: -1
+                text: 'Thank you so much',
+                nextText: 10
             }
         ]
     },

@@ -202,12 +202,98 @@ const textNodes = [
     },
     {
         id: 15,
-        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to spice it up',
+        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
         options: [
             {
-                text: 'Just doing my job!',
+                text: 'Revise your assignment',
+                nextText: 16
+            },
+            {
+                text: 'Make it your own',
+                nextText: 17
+            },
+        ]
+    },
+    {
+        id: 16,
+        text: 'You revise your assignment, claiming that "the President himself has hinted to being apart of the infamous Illuminati group."',
+        options: [
+            {
+                text: 'Turn into manager',
+                nextText: 18
+            },
+        ]
+    },
+    {
+        id: 17,
+        text: 'You change a bit of information, coloring in your own facts to make an enaging story."President planning to end term early as news comes in of his involvement in the infamous Illuminati group."',
+        options: [
+            {
+                text: 'Turn into manager',
+                nextText: 19
+            },
+        ]
+    },
+    {
+        id: 18,
+        text: 'One quick skim over at your assignment, your manger nods, "this is a good start but next time, we need a bit more"',
+        options: [
+            {
+                text: 'Will do better next time',
+                nextText: 20
+            },
+        ]
+    },
+    {
+        id: 19,
+        text: '',
+        options: [
+            {
+                text: 'I appreciate the feedback',
                 nextText: 14
-            }
+            },
+        ]
+    },
+    {
+        id: 20,
+        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        options: [
+            {
+                text: 'Revise your assignment',
+                nextText: 14
+            },
+            {
+                text: 'Make it your own',
+                nextText: 14
+            },
+        ]
+    },
+    {
+        id: 21,
+        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        options: [
+            {
+                text: 'Revise your assignment',
+                nextText: 14
+            },
+            {
+                text: 'Make it your own',
+                nextText: 14
+            },
+        ]
+    },
+    {
+        id: 22,
+        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        options: [
+            {
+                text: 'Revise your assignment',
+                nextText: 14
+            },
+            {
+                text: 'Make it your own',
+                nextText: 14
+            },
         ]
     },
 ]

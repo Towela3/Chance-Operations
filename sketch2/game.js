@@ -87,7 +87,7 @@ const textNodes = [
             },
             {
                 text: 'Facebook',
-                nextText: -1
+                nextText: 15
             }
         ]
     },
@@ -148,24 +148,68 @@ const textNodes = [
     },
     {
         id: 10,
-        text: 'The monster laughed as you hid behind your shield and ate you.',
+        text: 'For your next assignment, you know you need to find something bigger and better, that is going to ensure enagement',
         options: [
             {
-                text: 'Restart',
-                nextText: -1
+                text: 'Police Brutality',
+                nextText: 11
+            },
+            {
+                text: 'Cryptocurrency',
+                nextText: 12
             }
         ]
     },
     {
         id: 11,
-        text: 'You threw your jar of goo at the monster and it exploded. After the dust settled you saw the monster was destroyed. Seeing your victory you decide to claim this castle as your and live out the rest of your days there.',
+        text: 'Your assignment reads, "Florida police department randomly planning to raid predominantly African American High schools in search of guns and drugs"',
         options: [
             {
-                text: 'Congratulations. Play Again.',
-                nextText: -1
+                text: 'Sumbit to manager',
+                nextText: 13
             }
         ]
-    }
+    },
+    {
+        id: 12,
+        text: 'Your assignment reads, "Cryptocurrency becoming more popular, some retail stores even accepting it along side Apple pay, VISA and Google pay"',
+        options: [
+            {
+                text: 'Sumbit to manager',
+                nextText: 13
+            }
+        ]
+    },
+    {
+        id: 13,
+        text: 'While having a department meeting, your manager presents an increase in audience enagement, including that some of your work has been the cause of the recent increase',
+        options: [
+            {
+                text: 'Just doing my job!',
+                nextText: 14
+            }
+        ]
+    },
+    {
+        id: 14,
+        text: 'It may seem fun at the moment but spreading false information is no laughing matter. While the information in this game was fake, much of the misleading information that is on social media affects real people. Not only people across the world but people that may be in your close circle. Because false information spreads ten times faster than real news. Getting clout and attention for misinformation feels great until you have to pay for your actions. ',
+        options: [
+            {
+                text: 'DO BETTER',
+                nextText: 1
+            }
+        ]
+    },
+    {
+        id: 15,
+        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to spice it up',
+        options: [
+            {
+                text: 'Just doing my job!',
+                nextText: 14
+            }
+        ]
+    },
 ]
 
 startGame()

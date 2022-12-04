@@ -42,7 +42,7 @@ function selectOption(option) {
 const textNodes = [
     {
         id: 1,
-        text: 'Welcome To Real News!',
+        text: '📰 Welcome To Real News! 🗞',
         options: [
             {
                 text: 'START 👍',
@@ -53,7 +53,7 @@ const textNodes = [
     },
     {
         id: 2,
-        text: 'Storyline: You have recently been hired at Real News Broadcast as an intern for the summer in the journalism department. Bright eyed and bushy tailed, you are ready to change the world for the better. You have worked so hard to be where you are now and you are just inching closer to this being your dream job in the future. Do Not Screw It Up'
+        text: 'Storyline: You have recently been hired at 🚨 Real News Broadcast 🚨 as an intern for the summer in the journalism department. Bright eyed and bushy tailed, you are ready to change the world for the better. You have worked so hard to be where you are now and you are just inching closer to this being your dream job in the future. Do Not Screw It Up! 😅'
         , options: [
             {
                 text: 'Ready To Start 🤝',
@@ -96,11 +96,11 @@ const textNodes = [
         text: 'You choose Twitter and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to spice it up',
         options: [
             {
-                text: 'Spice it up',
+                text: 'Spice it up 🌶',
                 nextText: 6
             },
             {
-                text: 'Rewrite it to make it more interesting',
+                text: 'Rewrite it to make it more interesting 🤔',
                 nextText: 7
             }
 
@@ -108,20 +108,20 @@ const textNodes = [
     },
     {
         id: 6,
-        text: 'You spice up your assignment, stating that, "President Biden is in a political brawl with the Supreme Court over passing student forgiveness progrom"',
+        text: 'You spice up your assignment, stating that, "President Biden is in a political 🥊 brawl with the 👩‍⚖️ Supreme Court over passing student forgiveness progrom"',
         options: [
             {
-                text: 'Submit to manager',
+                text: 'Submit to manager 👍',
                 nextText: 8
             }
         ]
     },
     {
         id: 7,
-        text: 'You excitedly rewrite your assignment, stating that "President Biden passed a new law forgiving any born American Citizens student loans but only effective for three months',
+        text: 'You excitedly rewrite your assignment, stating that "President Biden passed a new law forgiving any born 🇺🇸 American Citizens student 💸 loans but only effective for three months',
         options: [
             {
-                text: 'Submit it manager',
+                text: 'Submit it manager 👍',
                 nextText: 9
             }
         ]
@@ -131,17 +131,17 @@ const textNodes = [
         text: 'Your manager reads it over, exclaiming that it will get people to read but is not enaging enough to pull outside of the basic audience',
         options: [
             {
-                text: 'Okay, thank you for the feedback',
+                text: 'Okay, thank you for the feedback 🙃',
                 nextText: 10
             }
         ]
     },
     {
         id: 9,
-        text: 'Your manger excitedly reads your assignment, giving you a nod of approvel, "This is going to get some people talking, good job"',
+        text: 'Your manger excitedly reads your assignment, giving you a nod of approvel, 😏 "This is going to get some people talking, good job"',
         options: [
             {
-                text: 'Thank you so much',
+                text: 'Thank you so much 🙂',
                 nextText: 10
             }
         ]
@@ -151,38 +151,38 @@ const textNodes = [
         text: 'For your next assignment, you know you need to find something bigger and better, that is going to ensure enagement',
         options: [
             {
-                text: 'Police Brutality',
+                text: '🚨 Police Brutality 🚔',
                 nextText: 11
             },
             {
-                text: 'Cryptocurrency',
+                text: '🤑 Cryptocurrency 💰',
                 nextText: 12
             }
         ]
     },
     {
         id: 11,
-        text: 'Your assignment reads, "Florida police department randomly planning to raid predominantly African American High schools in search of guns and drugs"',
+        text: 'Your assignment reads, "Florida police department randomly planning to raid predominantly 👩🏾‍🎓 African American 🎓 High schools in search of 🔫 guns and 💊 drugs"',
         options: [
             {
-                text: 'Sumbit to manager',
+                text: 'Sumbit to manager 👍',
                 nextText: 13
             }
         ]
     },
     {
         id: 12,
-        text: 'Your assignment reads, "Cryptocurrency becoming more popular, some retail stores even accepting it along side Apple pay, VISA and Google pay"',
+        text: 'Your assignment reads, "Cryptocurrency becoming more popular, some retail 🛍 stores even accepting it along side Apple pay, 💳 VISA and Google pay"',
         options: [
             {
-                text: 'Sumbit to manager',
+                text: 'Sumbit to manager 👍',
                 nextText: 13
             }
         ]
     },
     {
         id: 13,
-        text: 'While having a department meeting, your manager presents an increase in audience enagement, including that some of your work has been the cause of the recent increase',
+        text: 'While having a 🏢 department meeting, your manager presents an 📈 increase in audience enagement, including that some of your work has been the cause of the recent increase',
         options: [
             {
                 text: 'Just doing my job!',
@@ -195,11 +195,11 @@ const textNodes = [
         text: 'On break, you overhear something you wrote about being discussed. As you continue to listen the information getting shared is so far-fetched from what you initially shared. The discussion starts to get heated as it continues… ',
         options: [
             {
-                text: 'Speak Up',
+                text: 'Speak Up 🗣',
                 nextText: 15
             },
             {
-                text: 'I was just doing my job',
+                text: 'I was just doing my job 🤷‍♂️',
                 nextText: 15
             }
         ]
@@ -209,7 +209,7 @@ const textNodes = [
         text: '“Just doing your job” or “speaking up” would do nothing. The information has already been spread; not only is this false information effecting people around your but people in other parts of the world as well.',
         options: [
             {
-                text: 'Do Better',
+                text: '😠 Do Better 👎',
                 nextText: 1
             }
         ]

@@ -7,7 +7,7 @@ let h;
 let shape;
 
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(600, 600);
     noStroke();
     w = floor(width / rez);
     h = floor(height / rez);

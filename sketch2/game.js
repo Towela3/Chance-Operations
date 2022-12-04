@@ -42,7 +42,7 @@ function selectOption(option) {
 const textNodes = [
     {
         id: 1,
-        text: 'Welcome To Moderator!',
+        text: 'Welcome To Real News!',
         options: [
             {
                 text: 'START',
@@ -192,16 +192,30 @@ const textNodes = [
     },
     {
         id: 14,
-        text: 'It may seem fun at the moment but spreading false information is no laughing matter. While the information in this game was fake, much of the misleading information that is on social media affects real people. Not only people across the world but people that may be in your close circle. Because false information spreads ten times faster than real news. Getting clout and attention for misinformation feels great until you have to pay for your actions. ',
+        text: 'On break, you overhear something you wrote about being discussed. As you continue to listen the information getting shared is so far-fetched from what you initially shared. The discussion starts to get heated as it continues… ',
         options: [
             {
-                text: 'DO BETTER',
-                nextText: 1
+                text: 'Speak Up',
+                nextText: 15
+            },
+            {
+                text: 'I was just doing my job',
+                nextText: 15
             }
         ]
     },
     {
         id: 15,
+        text: '“Just doing your job” or “speaking up” would do nothing. The information has already been spread; not only is this false information effecting people around your but people in other parts of the world as well.',
+        options: [
+            {
+                text: 'Do Better',
+                nextText: 1
+            }
+        ]
+    },
+    {
+        id: 16,
         text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
         options: [
             {
@@ -215,7 +229,7 @@ const textNodes = [
         ]
     },
     {
-        id: 16,
+        id: 17,
         text: 'You revise your assignment, claiming that "the President himself has hinted to being apart of the infamous Illuminati group."',
         options: [
             {
@@ -225,7 +239,7 @@ const textNodes = [
         ]
     },
     {
-        id: 17,
+        id: 18,
         text: 'You change a bit of information, coloring in your own facts to make an enaging story."President planning to end term early as news comes in of his involvement in the infamous Illuminati group."',
         options: [
             {
@@ -235,7 +249,7 @@ const textNodes = [
         ]
     },
     {
-        id: 18,
+        id: 19,
         text: 'One quick skim over at your assignment, your manger nods, "this is a good start but next time, we need a bit more"',
         options: [
             {
@@ -245,25 +259,11 @@ const textNodes = [
         ]
     },
     {
-        id: 19,
+        id: 20,
         text: '',
         options: [
             {
                 text: 'I appreciate the feedback',
-                nextText: 14
-            },
-        ]
-    },
-    {
-        id: 20,
-        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
-        options: [
-            {
-                text: 'Revise your assignment',
-                nextText: 14
-            },
-            {
-                text: 'Make it your own',
                 nextText: 14
             },
         ]
@@ -285,6 +285,34 @@ const textNodes = [
     {
         id: 22,
         text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        options: [
+            {
+                text: 'Revise your assignment',
+                nextText: 14
+            },
+            {
+                text: 'Make it your own',
+                nextText: 14
+            },
+        ]
+    },
+    {
+        id: 23,
+        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        options: [
+            {
+                text: 'Revise your assignment',
+                nextText: 14
+            },
+            {
+                text: 'Make it your own',
+                nextText: 14
+            },
+        ]
+    },
+    {
+        id: 24,
+        text: '',
         options: [
             {
                 text: 'Revise your assignment',

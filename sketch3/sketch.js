@@ -11,7 +11,7 @@ function setup() {
     noStroke();
     w = floor(width / rez);
     h = floor(height / rez);
-    frameRate(3);
+    frameRate(7);
     snake = new Snake();
     foodLocation();
     thingLocation();

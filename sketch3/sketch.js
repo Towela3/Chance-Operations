@@ -30,7 +30,7 @@ function thingLocation() {
 }
 
 function draw() {
-    background(251, 253, 196);
+    background(242, 241, 228);
     scale(rez);
     if (snake.eat(food)) {
         foodLocation();

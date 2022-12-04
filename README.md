@@ -12,4 +12,4 @@
 
 ## Part Two
 
-[Creative Project 3.1](./sketch3/)
+[Creative Project 3](./sketch3/)

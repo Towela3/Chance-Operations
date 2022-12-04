@@ -45,7 +45,7 @@ const textNodes = [
         text: 'Welcome To Real News!',
         options: [
             {
-                text: 'START',
+                text: 'START 👍',
                 setState: { blueGoo: true },
                 nextText: 2
             }
@@ -56,7 +56,7 @@ const textNodes = [
         text: 'Storyline: You have recently been hired at Real News Broadcast as an intern for the summer in the journalism department. Bright eyed and bushy tailed, you are ready to change the world for the better. You have worked so hard to be where you are now and you are just inching closer to this being your dream job in the future. Do Not Screw It Up'
         , options: [
             {
-                text: 'Ready To Start',
+                text: 'Ready To Start 🤝',
                 requiredState: (currentState) => currentState.blueGoo,
                 setState: { blueGoo: true },
                 nextText: 3
@@ -68,11 +68,11 @@ const textNodes = [
         text: 'You meet with your manager who invites you to your first morning meeting with the rest of the department.',
         options: [
             {
-                text: 'Interesting',
+                text: 'Interesting 🙂',
                 nextText: 4
             },
             {
-                text: 'Okay?',
+                text: 'Okay? 🙃',
                 nextText: 4
             },
         ]
@@ -82,11 +82,11 @@ const textNodes = [
         text: 'First Assignment: Your manager would like to see you work on your first project to see how you do. They give an option to pick which platform you’d like to embark on.',
         options: [
             {
-                text: 'Twitter',
+                text: '▶︎ Twitter',
                 nextText: 5
             },
             {
-                text: 'Facebook',
+                text: '▶︎ Facebook',
                 nextText: 15
             }
         ]

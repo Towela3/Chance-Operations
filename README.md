@@ -11,3 +11,5 @@
 [Creative Project 3](./sketch2)
 
 ## Part Two
+
+[Creative Project 3.1](./sketch3/)

@@ -54,10 +54,10 @@ class Snake {
             rect(this.body[i].x, this.body[i].y, 1, 1);
 
             fill(230, 123, 37);
-            rect(random(w) * i, random(h) * i, 1, 1);
+            rect(random(w), random(h), 1, 1);
 
             fill(250, 119, 37);
-            rect(random(w) * i, random(h) * i, 1, 1);
+            rect(random(w), random(h), 1, 1);
 
         }
     }

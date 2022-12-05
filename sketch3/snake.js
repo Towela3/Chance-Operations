@@ -56,8 +56,8 @@ class Snake {
             fill(230, 123, 37);
             rect(random(w), random(h), 1, 1);
 
-            fill(250, 119, 37);
-            rect(random(w), random(h), 1, 1);
+            //fill(250, 119, 37);
+            //rect(random(w), random(h), 1, 1);
 
         }
     }

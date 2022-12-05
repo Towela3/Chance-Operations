@@ -87,7 +87,7 @@ const textNodes = [
             },
             {
                 text: '▶︎ Facebook',
-                nextText: 15
+                nextText: 16
             }
         ]
     },

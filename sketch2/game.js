@@ -93,7 +93,7 @@ const textNodes = [
     },
     {
         id: 5,
-        text: 'You choose Twitter and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to spice it up',
+        text: 'You choose Twitter and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to 📝 spice it up',
         options: [
             {
                 text: 'Spice it up 🌶',
@@ -128,7 +128,7 @@ const textNodes = [
     },
     {
         id: 8,
-        text: 'Your manager reads it over, exclaiming that it will get people to read but is not enaging enough to pull outside of the basic audience',
+        text: 'Your manager reads it over, exclaiming that it will get people to read but is not 📉 enaging enough to pull outside of the basic audience',
         options: [
             {
                 text: 'Okay, thank you for the feedback 🙃',
@@ -162,7 +162,7 @@ const textNodes = [
     },
     {
         id: 11,
-        text: 'Your assignment reads, "Florida police department randomly planning to raid predominantly 👩🏾‍🎓 African American 🎓 High schools in search of 🔫 guns and 💊 drugs"',
+        text: 'Your assignment reads, "Florida 👮‍♂️ police department randomly planning to raid predominantly 👩🏾‍🎓 African American 🎓 High schools in search of 🔫 guns and 💊 drugs"',
         options: [
             {
                 text: 'Sumbit to manager 👍',
@@ -182,7 +182,7 @@ const textNodes = [
     },
     {
         id: 13,
-        text: 'While having a 🏢 department meeting, your manager presents an 📈 increase in audience enagement, including that some of your work has been the cause of the recent increase',
+        text: 'While having a 🏢 department meeting, your manager presents an 📈 increase in audience enagement, including that some of your work has been the cause of the recent ⬆️ increase',
         options: [
             {
                 text: 'Just doing my job!',
@@ -192,7 +192,7 @@ const textNodes = [
     },
     {
         id: 14,
-        text: 'On break, you overhear something you wrote about being discussed. As you continue to listen the information getting shared is so far-fetched from what you initially shared. The discussion starts to get heated as it continues… ',
+        text: 'On break ☕ ️, you 👂overhear something you wrote about being discussed . As you continue to listen the ℹ️ information getting shared is so 😳 far-fetched from what you initially shared. The discussion starts to get 😤 heated as it continues… ',
         options: [
             {
                 text: 'Speak Up 🗣',
@@ -206,7 +206,7 @@ const textNodes = [
     },
     {
         id: 15,
-        text: '“Just doing your job” or “speaking up” would do nothing. The information has already been spread; not only is this false information effecting people around your but people in other parts of the world as well.',
+        text: '“Just doing your job” or “speaking up” would do nothing🤦‍♀️. The information has already been spread; not only is this false information effecting people around your but people in other parts of the world 🗺 as well.',
         options: [
             {
                 text: '😠 Do Better 👎',
@@ -216,114 +216,126 @@ const textNodes = [
     },
     {
         id: 16,
-        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more 😏 interesting',
         options: [
             {
-                text: 'Revise your assignment',
-                nextText: 16
-            },
-            {
-                text: 'Make it your own',
+                text: 'Revise your assignment 😌',
                 nextText: 17
             },
-        ]
-    },
-    {
-        id: 17,
-        text: 'You revise your assignment, claiming that "the President himself has hinted to being apart of the infamous Illuminati group."',
-        options: [
             {
-                text: 'Turn into manager',
+                text: 'Make it your own 😉',
                 nextText: 18
             },
         ]
     },
     {
-        id: 18,
-        text: 'You change a bit of information, coloring in your own facts to make an enaging story."President planning to end term early as news comes in of his involvement in the infamous Illuminati group."',
+        id: 17,
+        text: 'You revise your assignment, claiming that "The President himself has hinted to being apart of the infamous ⟁ Illuminati group."',
         options: [
             {
-                text: 'Turn into manager',
+                text: 'Turn into manager 👍',
                 nextText: 19
             },
         ]
     },
     {
-        id: 19,
-        text: 'One quick skim over at your assignment, your manger nods, "this is a good start but next time, we need a bit more"',
+        id: 18,
+        text: 'You change a bit of information, 🎨 coloring in your own facts to make an enaging story."President planning to end term early as news comes in of his involvement in the infamous ⟁ Illuminati group."',
         options: [
             {
-                text: 'Will do better next time',
-                nextText: 20
+                text: 'Turn into manager 👍',
+                nextText: 21
+            },
+        ]
+    },
+    {
+        id: 19,
+        text: 'One quick skim over at your assignment, your manager nods, "this is a good start but next time, we need a bit more"',
+        options: [
+            {
+                text: 'Will do better next time 🙃',
+                nextText: 21
             },
         ]
     },
     {
         id: 20,
-        text: '',
+        text: 'The room goes 😶 silent as they read over your assignment, "this is definitely going to get people talking 🗣, nice work keep it up"',
         options: [
             {
-                text: 'I appreciate the feedback',
-                nextText: 14
+                text: 'I appreciate the feedback 🙂',
+                nextText: 21
             },
         ]
     },
     {
         id: 21,
-        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        text: 'You sit on the 📝 feedback you just received, now thinking of ways you could do even better. What story is going to get people really more enaged? 😎',
         options: [
             {
-                text: 'Revise your assignment',
-                nextText: 14
+                text: '📱 Cyberbullying becoming recent trend on social media 👩‍💻',
+                nextText: 22
             },
             {
-                text: 'Make it your own',
-                nextText: 14
+                text: '🏛 Government lowering age to 16 of Selective Service 🫵',
+                nextText: 23
             },
         ]
     },
     {
         id: 22,
-        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        text: 'Your next piece reads, "Tik Tok being of the many social media platforms promoting cyberbullying as a new popular trend as a form of coping with trauma."',
         options: [
             {
-                text: 'Revise your assignment',
-                nextText: 14
-            },
-            {
-                text: 'Make it your own',
-                nextText: 14
-            },
+                text: 'Sumbit it 👍',
+                nextText: 24
+            }
         ]
     },
     {
         id: 23,
-        text: 'You choose Facebook and spend the next week working pretty hard on your assignment and research. You ask someone from the team to look it over and they advise you to make it more interesting',
+        text: 'Your next assignment reads, "🏛 Government officials planning to ⬇️ lower the age of Selective Service from 18 to 16 years old in the next following years."',
         options: [
             {
-                text: 'Revise your assignment',
-                nextText: 14
-            },
-            {
-                text: 'Make it your own',
-                nextText: 14
-            },
+                text: 'Sumbit it 👍',
+                nextText: 24
+            }
         ]
     },
     {
         id: 24,
-        text: '',
+        text: 'While having a morning briefing, your manager pulls you aside. Letting you know how well you have been doing throughout your internship, "keep it up!"',
         options: [
             {
-                text: 'Revise your assignment',
-                nextText: 14
+                text: 'Just trying to do my best 😁',
+                nextText: 25
+            }
+        ]
+    },
+    {
+        id: 25,
+        text: 'You eventually step out for 🥡 lunch as you do so, you overhear a loud discussion close by. One of your assignments comes up and as the discussion continues, the details on what you shared start to become a bit blurry. You hear them quoting your work now but something amiss...',
+        options: [
+            {
+                text: 'Say Something 😧',
+                nextText: 26
             },
             {
-                text: 'Make it your own',
-                nextText: 14
+                text: 'It is what it is 🤷‍♀️',
+                nextText: 26
             },
         ]
     },
+    {
+        id: 26,
+        text: '"Saying something" or ignoring the situation, is only going to make things worse. False information does not only effect people you can not see but it effects people who are close to you as well even people you know personally. By spreading misinformation or disinformation, your only enabling the cycle of misguided agendas.',
+        options: [
+            {
+                text: '🫵 JUST DO BETTER 😑',
+                nextText: 1
+            }
+        ]
+    }
 ]
 
 startGame()

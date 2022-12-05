@@ -314,7 +314,7 @@ const textNodes = [
     },
     {
         id: 25,
-        text: 'You eventually step out for 🥡 lunch as you do so, you overhear a loud discussion close by. One of your assignments comes up and as the discussion continues, the details on what you shared start to become a bit blurry. You hear them quoting your work now but something amiss...',
+        text: 'You eventually step out for 🥡 lunch as you do so, you overhear a loud discussion close by. One of your assignments comes up and as the discussion continues, the details on what you shared start to become a bit blurry. You hear them quoting your work now but something 😟amiss...',
         options: [
             {
                 text: 'Say Something 😧',

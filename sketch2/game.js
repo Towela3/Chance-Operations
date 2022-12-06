@@ -254,7 +254,7 @@ const textNodes = [
         options: [
             {
                 text: 'Will do better next time 🙃',
-                nextText: 21
+                nextText: 20
             },
         ]
     },

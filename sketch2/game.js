@@ -244,7 +244,7 @@ const textNodes = [
         options: [
             {
                 text: 'Turn into manager 👍',
-                nextText: 21
+                nextText: 20
             },
         ]
     },
@@ -254,7 +254,7 @@ const textNodes = [
         options: [
             {
                 text: 'Will do better next time 🙃',
-                nextText: 20
+                nextText: 21
             },
         ]
     },
